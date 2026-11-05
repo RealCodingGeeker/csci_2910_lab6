@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Database
+# artworks.db is intentionally NOT ignored so the seeded database ships with the lab
+# *.db
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# uv
+uv.lock
+
+# pytest
+.pytest_cache/
+.ruff_cache/
